@@ -7,10 +7,16 @@ backend:
 
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: jenko
+    api_key: 536876865718473
+
 collections:
-  # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
+  # Sessions
+  - name: "sessions" # Used in routes, e.g., /admin/collections/blog
+    label: "Session" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -18,13 +24,37 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+  # Week 1 sessions
+  - name: "week1_sessions"
+    label: "Week 1 Session"
+    folder: "posts"
+    create: true
+    filter: { field: "tags", value: "week1" }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+  # Week 2 sessions
+  - name: "week2_sessions"
+    label: "Week 2 Session"
+    folder: "posts"
+    create: true
+    filter: { field: "tags", value: "week2" }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
     folder: "pages"
-    create: false # Change to true to allow editors to create new pages
+    create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
