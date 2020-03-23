@@ -16,7 +16,9 @@ section: post
 </article>
 
 {% if tags %}
-    {% set tagUrl %}/tags/{{ tags.first }}/{% endset %}
+    {% for tag in tags %}
+        {% set tagUrl %}/tags/{{ tags.first }}/{% endset %}
+    {% endfor %}
     <nav>
       <a href="{{ tagUrl | url }}">← Back</a>
     </nav>
