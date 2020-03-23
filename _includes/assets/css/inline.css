@@ -2,6 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	--blue: blue;
+	--tns-green: #258749;
 }
 
 *, *:before, *:after {
@@ -19,7 +20,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background-color: var(--turkey);
+	background-color: var(--white);
 }
 
 main {
@@ -34,7 +35,7 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--blue);
+	color: var(--tns-green);
 }
 
 a[href]:not(:hover) {
@@ -74,6 +75,11 @@ pre {
 }
 
 /* Header Logo (style as h2) */
+header > img {
+	float: left;
+	width: 75px;
+}
+
 header > em {
 	display: block;
 	font-size: 2em;
