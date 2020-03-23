@@ -26,6 +26,9 @@ section: post
 
 </article>
 
-<nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
-</nav>
+{% if tags %}
+    {% set tagUrl %}/tags/{{ tags.first }}/{% endset %}
+    <nav>
+      <a href="{{ tagUrl | url }}">← Back</a>
+    </nav>
+{% endif &}
