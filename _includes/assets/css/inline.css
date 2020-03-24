@@ -78,14 +78,16 @@ pre {
 header > img {
 	float: left;
 	width: 75px;
+	vertical-align: middle;
 }
 
 header > em {
 	display: block;
-	font-size: 2em;
-	margin: .67em 0;
+	font-size: 1em;
+	margin: .97em 0;
 	font-weight: bold;
 	font-style: normal;
+	width: 200px;
 }
 
 /* Header Nav */
