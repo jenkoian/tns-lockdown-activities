@@ -10,7 +10,7 @@ tags:
 
 <h2>Drag & Dodge</h2>
 <video width="320" height="240" controls>
-  <source src="https://res.cloudinary.com/jenko/video/upload/v1584980784/tns-lockdown-activities/week1/session3/drag-and-dodge_idpi0c.mp4t=0.1" type="video/mp4" />
+  <source src="https://res.cloudinary.com/jenko/video/upload/v1584980784/tns-lockdown-activities/week1/session3/drag-and-dodge_idpi0c.mp4#t=0.1" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
