@@ -11,4 +11,6 @@
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+
+  <link rel="preload" href="/static/img/tns-badge.png" as="image" />
 </head>
