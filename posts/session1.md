@@ -1,14 +1,14 @@
 ---
 title: Session 1
-date: 2020-03-23T12:00:00.000Z
+date: 2020-03-22T12:00:00.000Z
 summary: 
 tags:
   - week1
 ---
 
-<a href="https://res.cloudinary.com/jenko/image/upload/v1584980004/tns-lockdown-activities/week1/session1/Week_1_-_Agility_Ryan_Brobbel_Challenge_Practice_1_t4dilr.pdf">Week 1 - Agility Ryan Brobbel Challenge Practice 1</a>
+<a href="https://res.cloudinary.com/jenko/image/upload/v1584980004/tns-lockdown-activities/week1/session1/Week_1_-_Agility_Ryan_Brobbel_Challenge_Practice_1_t4dilr.pdf">Week 1 - Agility - Ryan Brobbel Challenge (Practice 1)</a>
 
-<h2>V Move</h2>
+<h2>V-move</h2>
 <video width="320" height="240" controls>
   <source src="https://res.cloudinary.com/jenko/video/upload/v1584978940/tns-lockdown-activities/week1/session1/v-move_ydn4jj.mp4#t=0.1" type="video/mp4" />
   Your browser does not support the video tag.
