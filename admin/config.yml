@@ -23,14 +23,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Week 1 sessions
   - name: "week1_sessions"
     label: "Week 1 Session"
     folder: "posts"
-    create: true
+    create: false
     filter: { field: "tags", value: "week1" }
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -42,7 +41,7 @@ collections:
   - name: "week2_sessions"
     label: "Week 2 Session"
     folder: "posts"
-    create: true
+    create: false
     filter: { field: "tags", value: "week2" }
     fields:
       - { label: "Title", name: "title", widget: "string" }
