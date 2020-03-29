@@ -1,7 +1,6 @@
 ---
 title: Session 2.1
 date: 2020-03-29T21:12:56.952Z
-summary: ' '
 tags:
   - week2
 ---
