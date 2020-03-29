@@ -19,3 +19,11 @@ tags:
     <source src="https://res.cloudinary.com/jenko/video/upload/v1585512100/tns-lockdown-activities/week2/session3/inside-volleys-receiving-outside_pbvlws.mp4#t=0.1" type="video/mp4" />
     Your browser does not support the video tag.
 </video>
+
+
+## Danny Redmond Challenge 2
+
+<video width="320" height="240" controls>
+    <source src="https://res.cloudinary.com/jenko/video/upload/v1585512101/tns-lockdown-activities/week2/session3/danny-redmond-challenge-2_qylxdd.mp4#t=0.1" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
