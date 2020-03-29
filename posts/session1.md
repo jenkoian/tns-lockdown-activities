@@ -1,5 +1,5 @@
 ---
-title: Session 1
+title: Session 1.1
 date: 2020-03-22T12:00:00.000Z
 tags:
   - week1
