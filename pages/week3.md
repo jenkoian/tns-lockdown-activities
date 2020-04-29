@@ -7,5 +7,4 @@ eleventyNavigation:
   key: Week 3
   order: 3
 ---
-Welsh Way Moves Sessions
  
