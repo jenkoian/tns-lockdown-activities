@@ -80,6 +80,17 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
       - { label: "Body", name: "body", widget: "markdown" }
+  # Week 6 sessions
+  - name: "week6_sessions"
+    label: "Week 6 Session"
+    folder: "posts"
+    create: false
+    filter: { field: "tags", value: "week6" }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["week1"] }
+      - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
